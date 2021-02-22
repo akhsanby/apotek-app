@@ -2,6 +2,13 @@
 
 Membuat sistem informasi apotek sederhana menggunakan codeigniter v4.1.1 untuk Tugas UAS
 
+## Alat dan Bahan
+ 1. Composer
+ 2. PHP 7.3+
+ 3. MySQL / XAMPP
+ 4. Text Editor
+ 5. Terminal / GitBash
+
 ## Instalasi
 ```bash
 git clone https://github.com/AkhsanBy/apotek-app.git
@@ -16,4 +23,5 @@ git clone https://github.com/AkhsanBy/apotek-app.git
 5. ```php spark migrate```
 6. ```php spark db:seed DatabaseSeeder```
 7. ```php spark serve```
+8. buka http://localhost:8080
 9. username : admin - password : admin
