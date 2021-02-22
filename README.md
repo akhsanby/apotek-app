@@ -8,10 +8,9 @@ git clone https://github.com/AkhsanBy/apotek-app.git
 ```
 
 ## Cara menjalankan
-Jalankan perintah dibawah dengan terminal didalam folder apotek
 
 1. ```composer update```
-2. copy file env menjadi .env
+2. ```cp env .env``` atau copy file env dan rename menjadi .env
 3. ```php spark key:generate```
 4. setting database pada .env
 5. ```php spark migrate```
